@@ -1,101 +1,108 @@
 <!DOCTYPE html>
-<html lang="fra">
-<head>
-	<title>Bugz'z | Le rôle des insectes</title>
+<html lang="fr">
+    <head>
 
-	<meta name="description" content="Bugzz | Le rôle des insectes" />
-    <meta name="keywords" content="" />
+        <title>Bugz'z | Le rôle des insectes</title>
 
-    <meta charset="utf8" />
+        <!-- Website Icon -->
+        <link rel="icon" type="image/png" href="images/favicon.png">
 
-	<link rel="shortcut icon" href="img/favicon.png" />
-	<link type="text/css" rel="stylesheet" href="css/style.css" />
-	<script type="text/javascript" src="js/jquery.js"></script>
+        <!-- REGION : la section meta -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="" /> <!--Ajouter la description de website-->
+        <meta name="keywords" content=""> <!--Ajouter les mots clés pour aider les moteurs de recherche nous trouver Ex :insectes,entomologie .. etc-->
+        <meta property="" content="" /> <!-- Ajouter ces propriétés pour nous expliquer dans les réseaux sociaux -->
+        <!-- END REGION : la section meta -->
 
-    <style>
-        body{
-            background:#ccc;
-            color:#111;
-            font-family:Arial
-            font-size:13px;
-        }
-        #menu{margin:10px 15px;align:right;}
 
-        ul li{
-            display:inline-block;
-            marign:0;
-        }
-        ul li a{
-            padding:5px;
-            color:#555;
-        }
+        <!-- REGION : Link CSS -->
+        <link type="text/css" rel="stylesheet" href="css/style.css" />
+        <!-- END REGION : Link CSS -->
 
-        #bold{font-width: bold;}
-    </style>
 
-</head>
-<body>
+    </head>
+    <body>
 
-<div id="page">
+        <div id="home">
+            <!--REGION : Logo et Menu-->
+            <div id="logo">
+                <a href="#">
+                    <img src="images/logo.jpg" alt="Bugz'z logo" />
+                </a>
+            </div>
+            <a href="#">Login</a> | <a class="bold" href="#">S'enregistrer</a>
+            <div class="site_menu">
+                <ul>
+                    <li><a class="bold" href="#">Comment ça marche ?</a></li>
+                    <li><a href="#">Commencer</a></li>
+                    <li><a href="#">Galerie</a></li>
+                    <li><a href="#">Communauté</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <!--END REGION : Logo et Menu-->
+            <!--REGION : Home content-->
+            <div class="content">
+                <div class="instruction">
+                    <div id="first-paragraph" class="paragraph">
+                        <h2>Créer son environnement</h2>
+                        <p>Pour créer son environnement, il vous faudra choisir un par un, un insecte dans la liste. Cependant, certains insectes n’ont pas ou peu d’influence sur l’environnement. D’autres seront primordiales et devront être choisi en premier lieu.</p>
+                        <p>Utilisez le principe du cliquez-glissez pour ajouter un insecte à l’environnement, vous verrez en haut a droite de l’écran l’impact effectué sur la nature, vous entendrez aussi le son qu’il émet.</p>
+                    </div>
+                    <div id="second-paragraph" class="paragraph">
+                        <h2>Quel insecte choisir ?</h2>
+                        <p>Pour chaque insecte vous trouverez une despcription en cliquant sur «plus d’informations». Ceci vous aidera à comprendre l’impact de celui-ci sur l’environnement. Ainsi, vous serez en mesure de faire les bons choix.</p>
+                    </div>
+                    <div id="third-paragraph" class="paragraph">
+                        <h2>Partager son environnement</h2>
+                        <p>Une fois terminer, vous pouvez, en vous inscrivant, sauvegarder votre environnement et ainsi l’ajouter à votre profil pour le partager avec les autres membres.</p>
+                        <p>Vous pouvez aussi le relier à votre Facebook personnel.</p>
+                        <p>Vous trouverez dans la page «galerie» des exemples d’environnement, des plus populaires au moins populaire, enfin, dans la page «communauté», vous aurez accès à l’ensemble de l’environnement crée par les internautes.</p>
+                    </div>
+                    <div id="fourth-paragraph" class="paragraph">
+                        <h2>Lorem ipsum dolore sit amet</h2>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque : </p>
+                        <ul>
+                            <li>Lorem</li>
+                            <li>Ipsum</li>
+                            <li>Dolore</li>
+                            <li>Sit</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="info">
+                    <img src="images/bugz_commentcamarche.jpg" alt="" />
+                    <p class="bold">Derniers inscrits :</p>
+                    <table class="derins">
+                        <tr>
+                            <th>Aujourd'hui</th>
+                            <th>Hier</th>
+                        </tr>
+                        <tr>
+                            <td>5</td>
+                            <td>15</td>
+                        </tr>
+                        <tr colspan="2">
+                            <td>Total : 20</td>
+                        </tr>
+                    </table>
+                </div>
 
-<div id="logo"><a href="#"><img src="images/logo.jpg" alt="Bugz'z logo" /></a></div>
+            </div>
+            <!--END REGION : Home content-->
+        </div>
+        <!--REGION : Footer -->
+        <footer>
+            <div id="licence">
+                Ce site est une simulation réalisée dans le cadre de la Licence pro Webdesign Sensoriel 2010.
+            </div>
+        </footer>
+        <!--END REGION : Footer -->
 
-	<div id="menu">
-        <a href="#"  title="">Login</a> | <b><a href="#" title="" id="bold">S'enregistrer</b></a>
-        </br>
-
-        <li><a href="#" id="bold">Comment ça marche ?</a></li>
-        <li><a href="#">Commencer</a></li>
-        <li><a href="#">Galerie</a></li>
-        <li><a href="#">Communauté</a></li>
-        <li><a href="#">Contact</a></li>
-
-	</div>
-
-    <div class="how_content">
-        <h2>Créer son environnement</h2>
-        <p>Pour créer son environnement, il vous faudra choisir un par un, un insecte dans la liste. Cependant, certains insectes n’ont pas ou peu d’influence sur l’environnement. D’autres seront primordiales et devront être choisi en premier lieu.</p><p>Utilisez le principe du cliquez-glissez pour ajouter un insecte à l’environnement, vous verrez en haut a droite de l’écran l’impact effectué sur la nature, vous entendrez aussi le son qu’il émet.</p>
-
-        <h2>Quel insecte choisir ?</h2>
-
-        <p>Pour chaque insecte vous trouverez une despcription en cliquant sur «plus d’informations». Ceci vous aidera à comprendre l’impact de celui-ci sur l’environnement. Ainsi, vous serez en mesure de faire les bons choix.</p>
-
-        <br />
-
-        <h2>Partager son environnement</h2>
-        <p>Une fois terminer, vous pouvez, en vous inscrivant, sauvegarder votre environnement et ainsi l’ajouter à votre profil pour le partager avec les autres membres.</p>
-        <p>Vous pouvez aussi le relier à votre Facebook personnel.
-        <p>Vous trouverez dans la page «galerie» des exemples d’environnement, des plus populaires au moins populaire, enfin, dans la page «communauté», vous aurez accès à l’ensemble de l’environnement crée par les internautes.</p>
-
-        <h2>Lorem ipsum dolore sit amet</h2>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque : <br />
-            <ul>
-                <li>Lorem</li>
-                <li>Ipsum</li>
-                <li>Dolore</li>
-                <li>Sit</li>
-        </p>
-            </ul>
-</div>
-
-	<img src="images/bugz_commentcamarche.jpg" />
-
-    <p><strong>Derniers inscrits :</strong></p>
-
-    <table border="0" cellspacing="5" cellpadding="5">
-        <tr>
-            <td>Aujourd'hui</td>
-            <td>Hier</td>
-        </tr>
-        <tr>
-            <td>5</td>
-            <td>15</td>
-        </tr>
-        <td colspan="2">
-            Total : 20
-        </td>
-    </table>
-
-    <div style="float:left;margin-top:20px;color:#999;font-size:9px;font-style:underline;">Ce site est une simulation réalisée dans le cadre de la Licence pro Webdesign Sensoriel 2010.</div>
-</body>
+        <!-- REGION : Link JS Files -->
+        <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="js/site.js"></script>
+        <!-- END REGION : Link JS Files -->
+    </body>
 </html>
